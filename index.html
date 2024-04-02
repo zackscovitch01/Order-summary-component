@@ -4,9 +4,12 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Default Starter</title>
-    <style>
-      @import url("https://fonts.googleapis.com/css2?family=Karla&family=Spectral&display=swap");
-    </style>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&display=swap"
+      rel="stylesheet"
+    />
     <!-- normalize -->
     <link rel="stylesheet" href="./normalize.css" />
     <!-- main css -->
@@ -14,10 +17,10 @@
   </head>
   <body>
     <div class="main-container">
-      <img src="./images/illustration-hero.svg" alt="" />
+      <img class="img" src="./images/illustration-hero.svg" alt="" />
       <div class="main-content">
         <h1>Order Summary</h1>
-        <p>
+        <p class="main-text">
           You can now listen to millions of songs, audiobooks, and podcasts on
           any device anywhere you like!
         </p>
@@ -29,10 +32,15 @@
           </div>
           <a href="#">Change</a>
         </div>
-        <button type="button">Proceed to Payment</button>
-        <button type="button">Cancel Order</button>
+        <div class="btns">
+          <button class="btn btn-block" type="button">
+            Proceed to Payment
+          </button>
+          <button class="btn-block btn-cancel" type="button">
+            Cancel Order
+          </button>
+        </div>
       </div>
     </div>
-    Proceed to Payment Cancel Order
   </body>
 </html>

@@ -328,6 +328,10 @@ img {
   justify-self: flex-end;
 }
 
+.plan-container a:hover {
+  text-decoration: none;
+}
+
 .btn-block {
   width: 300px;
   padding: 1.2rem;
